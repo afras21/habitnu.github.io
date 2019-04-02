@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://aditya-sridhar.github.io/simple-reactjs-app",
   "dependencies": {
+    "@material/textfield": "^1.1.0",
     "axios": "^0.18.0",
     "loadash": "^1.0.0",
     "react": "^16.4.1",

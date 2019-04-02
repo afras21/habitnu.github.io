@@ -17,7 +17,7 @@ export default class Customers extends Component {
   componentDidMount() {
     this.getCustomerData();
   }
-
+  
   //Function to get the Customer Data from json
   getCustomerData() {
     axios.get('assets/samplejson/customerlist.json').then(response => {
@@ -30,9 +30,11 @@ export default class Customers extends Component {
       return (<p>Loading data</p>)
     return (<div className="addmargin">
       <div className="col-md-3">
-        {
+      {/* <input type="text" className="col-md-3 search" name="search" placeholder="Search.."></input> */}
+      <input type="text" id="my-text-field" className="mdc-text-field__input search" placeholder=" Enter Movie Name"></input>
+      <Button  className="srchButton">Search</Button>
 
-          this.state.customerList.data.map(customer => <Panel bsStyle="info" key={customer.title} className="centeralign">
+        { this.state.customerList.data.map(customer => <Panel bsStyle="info" key={customer.title } className="centeralign">
             <Panel.Heading>
               <Panel.Title componentClass="h3">{customer.title}</Panel.Title>
             </Panel.Heading>
