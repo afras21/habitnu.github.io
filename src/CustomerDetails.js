@@ -44,7 +44,7 @@ export default class CustomerDetails extends Component {
           <p>Title : {this.state.customerDetails.data.title}</p>
           <p>Year : {this.state.customerDetails.data.Year}</p>
           <p>Type : {this.state.customerDetails.data.Type}</p>
-          <p><img src={this.state.customerDetails.data.Poster}></img></p>
+          <p><img className="movieImage" src={this.state.customerDetails.data.Poster}></img></p>
         </Panel.Body>
       </Panel>
     </div>)
