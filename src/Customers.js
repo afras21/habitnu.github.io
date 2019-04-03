@@ -5,14 +5,12 @@ import CustomerDetails from './CustomerDetails'
 import axios from 'axios'
 
 export default class Customers extends Component {
-
   constructor(props) {
     super(props)
     this.state = {
       selectedCustomer: 1
     }
   }
-
   //function which is called the first time the component loads
   componentDidMount() {
     this.getCustomerData();
@@ -25,22 +23,27 @@ export default class Customers extends Component {
     })
   };
 
+  getSearchData(e) {
+  };
+  handleSearchData() {
+}
+
   render() {
     if (!this.state.customerList)
       return (<p>Loading data</p>)
     return (<div className="addmargin">
+    
       <div className="col-md-3">
-      {/* <input type="text" className="col-md-3 search" name="search" placeholder="Search.."></input> */}
-      <input type="text" id="my-text-field" className="mdc-text-field__input search" placeholder=" Enter Movie Name"></input>
-      <Button  className="srchButton">Search</Button>
-
+      <input type="text" id="my-text-field" value = {this.state.srch} onChange={this.getSearchData} className="mdc-text-field__input search" placeholder=" Enter Movie Name"></input>
+      <Button  className="srchButton"  onClick={this.handleSearchData}>Search</Button>
+    
         { this.state.customerList.data.map(customer => <Panel bsStyle="info" key={customer.title } className="centeralign">
             <Panel.Heading>
               <Panel.Title componentClass="h3">{customer.title}</Panel.Title>
             </Panel.Heading>
             <Panel.Body>
               <p>{customer.email}</p>
-              <p>{customer.phone}</p>
+              <p><img className="listImg" src={customer.Poster}></img></p>
               <Button bsStyle="info" onClick={() => this.setState({selectedCustomer: customer.id})}>
 
                 Click to View Details

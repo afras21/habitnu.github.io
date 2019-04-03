@@ -21,6 +21,9 @@
 .App-intro {
   font-size: large;
 }
+.panel{
+  box-shadow: 3px 3px 3px rgba(0,0,0,.05);
+}
 
 /* @keyframes App-logo-spin {
   from { transform: rotate(-30deg); }
