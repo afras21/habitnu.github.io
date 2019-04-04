@@ -42,12 +42,38 @@ export default class CustomerDetails extends Component {
           <Panel.Title componentClass="h3">{this.state.customerDetails.data.Title}</Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <p>Title : {this.state.customerDetails.data.title}</p>
-          <p>Year : {this.state.customerDetails.data.Year}</p>
-          <p>Type : {this.state.customerDetails.data.Type}</p>
-          <p><img className="movieImage" src={this.state.customerDetails.data.Poster}></img></p>
+        <div className="col-md-3">
+        <p><img className="movieImage" src={this.state.customerDetails.data.Poster}></img></p>
+
+        </div>
+        <div className="col-md-2">
+
+        </div>
+        <div className="col-md-3">
+
+
+        <p><strong>Title    :</strong> {this.state.customerDetails.data.Title}</p>
+          <p><strong>Year          : </strong>{this.state.customerDetails.data.Year}</p>
+          <p><strong>Released Date</strong>  : {this.state.customerDetails.data.Released}</p>
+          <p><strong>Director       :</strong> {this.state.customerDetails.data.Director}</p>
+          <p><strong>Actors         :</strong> {this.state.customerDetails.data.Actors}</p>
+        </div>
+
+
+
         </Panel.Body>
       </Panel>
     </div>)
   }
 }
+// "Rated": "PG-13",
+// "Released": "25 Dec 2009",
+// "Runtime": "170 min",
+// "Genre": "Comedy, Drama",
+// "Director": "Rajkumar Hirani",
+// "Writer": "Rajkumar Hirani (screenplay), Abhijat Joshi (screenplay), Vidhu Vinod Chopra (screenplay associate), Abhijat Joshi (story), Chetan Bhagat (novel)",
+// "Actors": "Aamir Khan, Madhavan, Sharman Joshi, Kareena Kapoor",
+// "Plot": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+// "Language": "Hindi, English",
+// "Country": "India",
+// "Awards": "26 wins & 13 nominations.",
