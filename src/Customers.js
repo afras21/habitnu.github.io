@@ -29,9 +29,13 @@ export default class Customers extends Component {
     this.setState({ 
       searchKey: e.target.value,
     });
+    console.log(this.state.searchKey.toLowerCase());
   };
   onSubmit = () => {
+    // localStorage.setItem('searched',this.state.searchKey);
+    // console.log(localStorage.getItem);
   }
+  
 
   render() {  
     if (!this.state.customerList)
@@ -39,10 +43,10 @@ export default class Customers extends Component {
     return (<div className="addmargin">
 
       <div className="col-md-4">
-        <form className="App" onSubmit={this.onSubmit}>
+        {/* <form className="App" onSubmit={this.onSubmit}> */}
           <input type="text" id="my-text-field" value={this.state.srch} onChange={this.getSearchData} className="mdc-text-field__input search" placeholder=" Enter Movie Name"></input>
           <Button className="srchButton" onClick={this.onSubmit} >Search</Button>
-        </form>
+        {/* </form> */}
         {this.state.customerList.data.filter((customer) => {return customer.title.indexOf(this.state.searchKey)!==-1;})
                                               .map(customer => <Panel bsStyle="info" key={customer.title} className="centeralign">
           <Panel.Heading>

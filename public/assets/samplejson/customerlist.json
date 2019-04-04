@@ -1,37 +1,37 @@
 [{
 	"id": 1,
-	"title": "Batman Begins",
+	"title": "batman begins",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BZmUwNGU2ZmItMmRiNC00MjhlLTg5YWUtODMyNzkxODYzMmZlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
 }, {
 	"id": 2,
-	"title": "Batman v Superman: Dawn of Justice",
+	"title": "batman v superman: dawn of justice",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
 }, {
 	"id": 3,
-	"title": "Batman",
+	"title": "batman",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg"
 	
 }, {
 	"id": 4,
-	"title": "Batman & Robin",
+	"title": "batman and robin",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BMGQ5YTM1NmMtYmIxYy00N2VmLWJhZTYtN2EwYTY3MWFhOTczXkEyXkFqcGdeQXVyNTA2NTI0MTY@._V1_SX300.jpg"
 	
 }, {
 	"id": 5,
-	"title": "Batman: The Dark Knight Returns, Part 1",
+	"title": "batman: the dark knight returns, part 1",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BMzIxMDkxNDM2M15BMl5BanBnXkFtZTcwMDA5ODY1OQ@@._V1_SX300.jpg"
 	
 }, {
 	"id": 6,
-	"title": "Guardians of the Galaxy Vol. 2",
+	"title": "guardians of the galaxy vol. 2",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
 	
 }, {
 	"id": 7,
-	"title": "The Lego Batman Movie",
+	"title": "the lego batman movie",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_SX300.jpg"
 
-		
+
 }, {
 	"id": 8,
 	"title": "my bat",
@@ -40,14 +40,14 @@
 	
 }, {
 	"id": 9,
-	"title": "Batman: Under the Red Hood",
+	"title": "batman: under the red hood",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BYTdlODI0YTYtNjk5ZS00YzZjLTllZjktYmYzNWM4NmI5MmMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
 
 	
 },
 {	
 	"id": 10,
-	"title": "Three Idiots",
+	"title": "three idiots",
 	"Poster": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
 }
 ]
